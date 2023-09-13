@@ -5,24 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
-  <title>Box Model grid</title>
+  <title>Tarjeta de presentacion</title>
 </head>
 
-<body>
-  <div class="grid grid-cols-4 mx-auto bg-green-600 max-w-3xl container">
-    <header class="col-span-4 p-2 h-10 bg-red-300 ">
-      este es mi header
-    </header>
-    <nav class="h-32 col-span-1 bg-blue-400">
-      menu
-    </nav>
-    <article class="col-span-3 bg-orange-400">
-      contenido de la seccion
-    </article>
-    <footer class="col-span-4 bg-red-500 clear-both">
-      pie de pagina
-    </footer>
+<body class="flex items-center justify-center h-screen bg-slate-300">
+<div class="p-2 shadow-lg rounded w-[480px] bg-white">
+  <div class="text-right">
+    <svg class="h-7 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+    </svg>    
   </div>
+  <div class="relative mx-auto w-20">
+    <img class="h-20 w-20 rounded-full" src="https://image.winudf.com/v2/image1/bmV0LndsbHBwci5ib3lzX3Byb2ZpbGVfcGljdHVyZXNfc2NyZWVuXzBfMTY2NzUzNzYxN18wOTk/screen-0.webp?fakeurl=1&type=.webp" alt="">
+    <div class="bottom-0 right-0 absolute flex justify-center items-center rounded-full w-4 h-4 bg-green-500">
+      <svg class="text-white w-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+      </svg>
+    </div>
+  </div>
+  <h1 class="text-slate-700 mt-3 text-center">Montaguth</h1>
+  <h3 class="text-slate-400 text-[10PX] text-center">UX/UI designer</h3>
+  <div class="mt-8 grid grid-cols-3">
+    <div class= "grid-cols-1 text-center">
+      <h6 class="text-[8px] uppercase text-slate-400">Projects</h6>
+      <h2>11</h2>
+    </div>
+    <div class= "grid-cols-1 text-center">
+      <h6 class="text-[8px] uppercase text-slate-400">Following</h6>
+      <h2>250</h2>
+    </div>
+    <div class= "grid-cols-1 text-center">
+      <h6 class="text-[8px] uppercase text-slate-400">Followers</h6>
+      <h2>185</h2>
+    </div>
+  </div>
+</div>
 </body>
-
 </html>
