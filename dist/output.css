@@ -581,6 +581,10 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .h-10 {
   height: 2.5rem;
 }
